@@ -1,0 +1,25 @@
+body {
+  background: transparent url("../images/mountains-universe-3.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#spa-content {
+  margin-top: 10vh;
+  padding-left: 10.2rem;
+}
+
+#spa-content p {
+  margin-top: 1.6rem;
+  max-width: 64.8rem;
+  text-align: left;
+}
+
+@media (max-width: 1280px) {
+  #spa-content {
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+  }
+}

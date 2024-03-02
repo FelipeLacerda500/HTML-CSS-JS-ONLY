@@ -1,0 +1,41 @@
+body {
+  background: transparent url("../images/mountains-universe-1.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#spa-content {
+  margin: 17.2rem 0 29.4rem 0;
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+}
+
+#spa-content a {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 1.2rem 3.2rem;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#spa-content a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+}
+
+@media (max-width: 1280px) {
+  #spa-content {
+    padding: 0 2rem;
+  }
+
+  #spa-content h1 {
+    text-align: center;
+  }
+}

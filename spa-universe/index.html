@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPA Universe</title>
+    <link rel="icon" type="image/svg+xml" href="./images/logo.svg" />
+    <link rel="preload" href="./images/mountains-universe-1.png" as="image" />
+    <link rel="preload" href="./images/mountains-universe-2.png" as="image" />
+    <link rel="preload" href="./images/mountains-universe-3.png" as="image" />
+    <link rel="stylesheet" href="./styles/loader.css" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/home.css" id="spa-style" />
+    <script type="module" src="./main.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+    <header>
+      <nav class="navbar">
+        <a class="navbar-anchor app-logo" href="/"></a>
+        <div class="anchors-wrapper dropdown-menu" data-visibility="hidden">
+          <a class="navbar-anchor" href="/" title="Home">Home</a>
+          <a class="navbar-anchor" href="/universe" title="O Universo"
+            >O Universo</a
+          >
+          <a class="navbar-anchor" href="/space-exploration" title="Exploração"
+            >Exploração</a
+          >
+        </div>
+        <button class="dropdown-icon" data-icon-state="icon-off">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </button>
+      </nav>
+    </header>
+    <main id="app"></main>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/universe"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/space-exploration"
+  to = "/index.html"
+  status = 200
+
